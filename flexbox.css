@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 400px;
+  /*align-items: flex-start;*/
+  /*this controls where within the container
+  the element will fall*/
+}
+
+.container-2 {
+  display: flex;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  flex-grow: 1;
+  height: 200px;
+  /*flex-basis: 200px;*/
+  /*this stops flex actions from taking place
+  until browser length falls below 200px*/
+}
+
+.widget-1 {
+  flex-grow: 8;
+}
+
+.widget-3 {
+  align-self: flex-end;
+}
+
+.widget-4 {
+  align-self: center;
+}
